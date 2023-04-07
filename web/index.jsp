@@ -1,0 +1,627 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: WH
+  Date: 2023/4/7
+  Time: 11:08
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>首页</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+  <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+  <link href="files/首页/styles.css" type="text/css" rel="stylesheet"/>
+  <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+  <script src="resources/scripts/axure/axQuery.js"></script>
+  <script src="resources/scripts/axure/globals.js"></script>
+  <script src="resources/scripts/axutils.js"></script>
+  <script src="resources/scripts/axure/annotation.js"></script>
+  <script src="resources/scripts/axure/axQuery.std.js"></script>
+  <script src="resources/scripts/axure/doc.js"></script>
+  <script src="resources/scripts/messagecenter.js"></script>
+  <script src="resources/scripts/axure/events.js"></script>
+  <script src="resources/scripts/axure/recording.js"></script>
+  <script src="resources/scripts/axure/action.js"></script>
+  <script src="resources/scripts/axure/expr.js"></script>
+  <script src="resources/scripts/axure/geometry.js"></script>
+  <script src="resources/scripts/axure/flyout.js"></script>
+  <script src="resources/scripts/axure/model.js"></script>
+  <script src="resources/scripts/axure/repeater.js"></script>
+  <script src="resources/scripts/axure/sto.js"></script>
+  <script src="resources/scripts/axure/utils.temp.js"></script>
+  <script src="resources/scripts/axure/variables.js"></script>
+  <script src="resources/scripts/axure/drag.js"></script>
+  <script src="resources/scripts/axure/move.js"></script>
+  <script src="resources/scripts/axure/visibility.js"></script>
+  <script src="resources/scripts/axure/style.js"></script>
+  <script src="resources/scripts/axure/adaptive.js"></script>
+  <script src="resources/scripts/axure/tree.js"></script>
+  <script src="resources/scripts/axure/init.temp.js"></script>
+  <script src="resources/scripts/axure/legacy.js"></script>
+  <script src="resources/scripts/axure/viewer.js"></script>
+  <script src="resources/scripts/axure/math.js"></script>
+  <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+  <script src="data/document.js"></script>
+  <script src="files/首页/data.js"></script>
+  <script type="text/javascript">
+    $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+    $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+    $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+  </script>
+</head>
+<body>
+<form action="http://localhost:8087/ww001_war_exploded/Home" method="post" >
+  <div id="base" class="">
+
+    <!-- 内联框架里的背景 (矩形) -->
+    <div id="u0" class="ax_default box_1" data-label="内联框架里的背景">
+      <div id="u0_div" class=""></div>
+      <div id="u0_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 热门书籍内联框架 (内联框架) -->
+    <div id="u1" class="ax_default" data-label="热门书籍内联框架">
+      <iframe id="u1_input" data-label="热门书籍内联框架" scrolling="auto" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <!-- Unnamed (图片 ) -->
+    <div id="u2" class="ax_default image ax_default_hidden" style="display:none; visibility: hidden">
+      <img id="u2_img" class="img " src="images/首页/u2.jpg"/>
+      <div id="u2_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 图片2 (图片 ) -->
+    <div id="u3" class="ax_default image" data-label="图片2">
+      <img id="u3_img" class="img " src="images/首页/图片2_u3.jpg"/>
+      <div id="u3_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 图片3 (图片 ) -->
+    <div id="u4" class="ax_default image ax_default_hidden" data-label="图片3" style="display:none; visibility: hidden">
+      <img id="u4_img" class="img " src="images/首页/图片3_u4.jpg"/>
+      <div id="u4_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 最上面包含框架 (矩形) -->
+    <div id="u5" class="ax_default box_1" data-label="最上面包含框架">
+      <img id="u5_img" class="img " src="images/首页/最上面包含框架_u5.svg"/>
+      <div id="u5_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 图书馆头像 (圆形) -->
+    <div id="u6" class="ax_default ellipse" data-label="图书馆头像">
+      <img id="u6_img" class="img " src="images/首页/图书馆头像_u6.svg"/>
+      <div id="u6_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 图书馆名 (文本框) -->
+    <div id="u7" class="ax_default text_field" data-label="图书馆名">
+      <div id="u7_div" class=""></div>
+      <input id="u7_input" type="text" value="旅行者图书馆" class="u7_input"/>
+    </div>
+
+    <!-- 开馆时间 (文本框) -->
+    <div id="u8" class="ax_default text_field" data-label="开馆时间">
+      <img id="u8_img" class="img " src="images/首页/开馆时间_u8.svg"/>
+      <input id="u8_input" type="text" value="9：00~21：00" class="u8_input"/>
+    </div>
+
+    <!-- Unnamed (矩形) -->
+    <div id="u9" class="ax_default link_button">
+      <div id="u9_div" class=""></div>
+      <div id="u9_text" class="text ">
+        <p><span>首页</span></p>
+      </div>
+    </div>
+
+    <!-- 图片切换1 (矩形) -->
+    <div id="u10" class="ax_default button" data-label="图片切换1">
+      <div id="u10_div" class=""></div>
+      <div id="u10_text" class="text ">
+        <p><span>1</span></p>
+      </div>
+    </div>
+
+    <!-- 图片切换2 (矩形) -->
+    <div id="u11" class="ax_default button" data-label="图片切换2">
+      <div id="u11_div" class=""></div>
+      <div id="u11_text" class="text ">
+        <p><span>2</span></p>
+      </div>
+    </div>
+
+    <!-- 图片切换3 (矩形) -->
+    <div id="u12" class="ax_default button" data-label="图片切换3">
+      <div id="u12_div" class=""></div>
+      <div id="u12_text" class="text ">
+        <p><span>3</span></p>
+      </div>
+    </div>
+
+    <!-- Unnamed (组合) -->
+    <div id="u13" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="168" data-width="100" data-height="180">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u14" class="ax_default flow_shape">
+        <div id="u14_div" class=""></div>
+        <div id="u14_text" class="text ">
+          <p><span>入馆须知</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15" class="ax_default flow_shape">
+        <div id="u15_div" class=""></div>
+        <div id="u15_text" class="text ">
+          <p><span>借阅须知</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u16" class="ax_default flow_shape">
+        <div id="u16_div" class=""></div>
+        <div id="u16_text" class="text ">
+          <p><span>常见问题</span></p>
+        </div>
+      </div>
+
+      <!-- 入馆须知内容 (文本域) -->
+      <div id="u17" class="ax_default text_area ax_default_hidden" data-label="入馆须知内容" style="display:none; visibility: hidden">
+        <div id="u17_div" class=""></div>
+        <textarea id="u17_input" class="u17_input">　1、本馆开架借阅区面向年满13周岁读者开放，13至15周岁读者入内须凭国家图书馆读者卡，其他读者凭国家图书馆读者卡或第二代居民身份证入内。
+　　2、本馆闭架借阅区面向年满16周岁并持有国家图书馆读者卡的读者开放。
+　　3、少年儿童馆接待15周岁及以下少年儿童。学龄前儿童须有监护人陪同，陪同监护人凭有效证件入内。
+　　4、请妥善保管随身物品，大尺码箱包（大于18.4cm×13cm）及其他与借阅无关的物品须凭有效读者卡或身份证免费寄存至存包处。
+　　5、请勿携带个人书、刊、报进入阅览区自习。
+　　6、请勿在馆区内从事与国家图书馆所提供服务无关的活动。
+　　7、请勿携带食品、液体物品入馆。
+　　8、禁止在馆区内吸烟和使用明火,入馆须按规定接受安检，禁止携带易燃、易爆、有毒等危险品。
+　　9、请注意仪表着装，衣冠整洁得体，言谈举止文明。
+　　10、请遵守公共秩序和国家图书馆相关管理规定，服从工作人员管理，自觉维护参观秩序和良好的阅读环境。</textarea>
+      </div>
+
+      <!-- 借阅须知内容 (文本域) -->
+      <div id="u18" class="ax_default text_area ax_default_hidden" data-label="借阅须知内容" style="display:none; visibility: hidden">
+        <div id="u18_div" class=""></div>
+        <textarea id="u18_input" class="u18_input">1.凭本人读者卡/第二代身份证在各阅览室阅览书刊资料，在阅览室、借阅区门口的验证处通过读卡机确认证件的功能有效后，即可入内。
+·2　阅览室的书刊资料仅供室内阅览。
+·3　阅览开架图书，每次限取四册；阅览开架报刊，每次限取1种/1年，阅后放在指定地点，请勿自行归架。
+·4　阅览闭架书刊资料，须填写索书单，交由工作人员提取，阅毕归还，请勿随意乱放。
+·5　阅览基藏书刊资料，须在本馆联机公共目录查询系统（OPAC）(或卡片目录)中检索书目并发送请求（或提交索书单），由工作人员提取书刊资料。书到出纳台而当日不取书刊者须交纳违约金0.30元/册。基藏库书刊须当日归还，逾期归还须交纳违约金5元/册/日。
+·6　复制书刊资料，须填写复制申请单并承诺遵守著作权法，在指定地点办理复制手续，复制后请立即归还。
+·7　阅览室的书刊资料未经许可, 不得擅自携出室外，私自将书刊资料夹带出室者，按偷窃行为处理。</textarea>
+      </div>
+
+      <!-- 常见问题内容 (文本域) -->
+      <div id="u19" class="ax_default text_area ax_default_hidden" data-label="常见问题内容" style="display:none; visibility: hidden">
+        <div id="u19_div" class=""></div>
+        <textarea id="u19_input" class="u19_input">Q1.进馆必须预约吗？
+必须预约。目前实行预约入馆制度。
+少年儿童馆接待十五周岁及以下少年儿童。入馆少年儿童可由监护人代为预约并陪同进入。陪同监护人须出示少年儿童馆预约码、国家图书馆读者卡或其他有效证件入馆。注：每位监护人限陪同一名少年儿童入馆。
+年龄在六十周岁（含）以上的老年读者，可由他人代为预约，凭当日有效预约码进入。对于预约确有困难的老年读者，可持有效身份证件登记后入馆。
+Q2.只还书不借书，需要预约吗？
+自助还书无须预约，地点在总馆南区东门外24小时自助还书处。
+如需到馆还书，请提前预约。
+Q3.什么时候可以预约？可以预约哪些到馆时段？
+微信预约：周一至周日9:00~21:00；电话预约：周一至周日9:00~16:00；
+可以预约当天及未来三天的到馆名额。
+Q4.预约时段内不能到馆，还可以保留预约码的使用权限吗？
+预约码过期失效。如果不能到馆，请您尽早取消预约，否则可能会影响到您日后的预约行为。
+</textarea>
+      </div>
+    </div>
+
+    <!-- Unnamed (矩形) -->
+    <div id="u20" class="ax_default button">
+      <div id="u20_div" class=""></div>
+      <div id="u20_text" class="text ">
+        <p><span>细节男孩</span></p>
+      </div>
+    </div>
+
+    <!-- Unnamed (组合) -->
+    <div id="u21" class="ax_default" data-left="141" data-top="423" data-width="726" data-height="101">
+
+      <!-- Unnamed (文本框) -->
+      <div id="u22" class="ax_default text_field">
+        <img id="u22_img" class="img " src="images/首页/u22.svg"/>
+        <input id="u22_input" type="search" value="" class="u22_input"/>
+      </div>
+
+      <!-- 首页搜索 (形状) -->
+      <div id="u23" class="ax_default icon" data-label="首页搜索">
+        <img id="u23_img" class="img " src="images/首页/首页搜索_u23.svg"/>
+        <div id="u23_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 爱上阅读背景 (图片 ) -->
+    <div id="u24" class="ax_default image" data-label="爱上阅读背景">
+      <img id="u24_img" class="img " src="images/首页/爱上阅读背景_u24.png"/>
+      <div id="u24_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- Unnamed (组合) -->
+    <div id="u25" class="ax_default" data-left="82" data-top="1283" data-width="891" data-height="299">
+
+      <!-- 最新消息通告组 (组合) -->
+      <div id="u26" class="ax_default" data-label="最新消息通告组" data-left="82" data-top="1283" data-width="891" data-height="299">
+
+        <!-- 通知内容 (矩形) -->
+        <div id="u27" class="ax_default box_1" data-label="通知内容">
+          <div id="u27_div" class=""></div>
+          <div id="u27_text" class="text ">
+            <p></p><p></p>
+          </div>
+        </div>
+
+        <!-- 资源动态内容 (矩形) -->
+        <div id="u28" class="ax_default box_1" data-label="资源动态内容">
+          <div id="u28_div" class=""></div>
+          <div id="u28_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- 活动日历内容 (矩形) -->
+        <div id="u29" class="ax_default box_1" data-label="活动日历内容">
+          <div id="u29_div" class=""></div>
+          <div id="u29_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- 通知 (文本框) -->
+        <div id="u30" class="ax_default text_field" data-label="通知">
+          <div id="u30_div" class=""></div>
+          <input id="u30_input" type="text" value="通知公告 " class="u30_input"/>
+        </div>
+
+        <!-- 资源动态 (文本框) -->
+        <div id="u31" class="ax_default text_field" data-label="资源动态">
+          <div id="u31_div" class=""></div>
+          <input id="u31_input" type="text" value="资源动态" class="u31_input"/>
+        </div>
+
+        <!-- 活动日历 (文本框) -->
+        <div id="u32" class="ax_default text_field" data-label="活动日历">
+          <div id="u32_div" class=""></div>
+          <input id="u32_input" type="text" value="活动日历" class="u32_input"/>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u33" class="ax_default text_field">
+          <img id="u33_img" class="img " src="images/首页/u33.svg"/>
+          <input id="u33_input" type="text" value="内容：" class="u33_input"/>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u34" class="ax_default text_field">
+          <img id="u34_img" class="img " src="images/首页/u34.svg"/>
+          <input id="u34_input" type="text" value="内容：" class="u34_input"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u35" class="ax_default text_field">
+        <img id="u35_img" class="img " src="images/首页/u33.svg"/>
+        <input id="u35_input" type="text" value="内容：" class="u35_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u36" class="ax_default text_field">
+        <img id="u36_img" class="img " src="images/首页/u34.svg"/>
+        <input id="u36_input" type="text" value="内容：" class="u36_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u37" class="ax_default text_field">
+        <img id="u37_img" class="img " src="images/首页/u33.svg"/>
+        <input id="u37_input" type="text" value="内容：" class="u37_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38" class="ax_default text_field">
+        <img id="u38_img" class="img " src="images/首页/u34.svg"/>
+        <input id="u38_input" type="text" value="内容：" class="u38_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u39" class="ax_default text_field">
+        <img id="u39_img" class="img " src="images/首页/u33.svg"/>
+        <input id="u39_input" type="text" value="内容：" class="u39_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u40" class="ax_default text_field">
+        <img id="u40_img" class="img " src="images/首页/u34.svg"/>
+        <input id="u40_input" type="text" value="内容：" class="u40_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u41" class="ax_default text_field">
+        <img id="u41_img" class="img " src="images/首页/u33.svg"/>
+        <input id="u41_input" type="text" value="内容：" class="u41_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u42" class="ax_default text_field">
+        <img id="u42_img" class="img " src="images/首页/u34.svg"/>
+        <input id="u42_input" type="text" value="内容：" class="u42_input"/>
+      </div>
+    </div>
+
+    <!-- Unnamed (文本框) -->
+    <div id="u43" class="ax_default text_field">
+      <img id="u43_img" class="img " src="images/首页/u43.svg"/>
+      <input id="u43_input" type="text" value="爱上阅读" class="u43_input"/>
+    </div>
+
+    <!-- 推荐图书集合 (组合) -->
+    <div id="u44" class="ax_default" data-label="推荐图书集合" data-left="0" data-top="544" data-width="1024" data-height="721">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45" class="ax_default box_1">
+        <div id="u45_div" class=""></div>
+        <div id="u45_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46" class="ax_default box_1">
+        <div id="u46_div" class=""></div>
+        <div id="u46_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47" class="ax_default box_1">
+        <div id="u47_div" class=""></div>
+        <div id="u47_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48" class="ax_default box_1">
+        <div id="u48_div" class=""></div>
+        <div id="u48_text" class="text ">
+          <p><span>热门书籍</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49" class="ax_default box_1">
+        <div id="u49_div" class=""></div>
+        <div id="u49_text" class="text ">
+          <p><span>更多分类</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u50" class="ax_default box_1">
+        <div id="u50_div" class=""></div>
+        <div id="u50_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u51" class="ax_default box_1">
+        <div id="u51_div" class=""></div>
+        <div id="u51_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u52" class="ax_default box_1">
+        <div id="u52_div" class=""></div>
+        <div id="u52_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u53" class="ax_default box_1">
+        <div id="u53_div" class=""></div>
+        <div id="u53_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54" class="ax_default box_1">
+        <div id="u54_div" class=""></div>
+        <div id="u54_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55" class="ax_default box_1">
+        <div id="u55_div" class=""></div>
+        <div id="u55_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56" class="ax_default box_1">
+        <div id="u56_div" class=""></div>
+        <div id="u56_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u57" class="ax_default box_1">
+        <div id="u57_div" class=""></div>
+        <div id="u57_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u58" class="ax_default box_1">
+        <div id="u58_div" class=""></div>
+        <div id="u58_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u59" class="ax_default box_1">
+        <div id="u59_div" class=""></div>
+        <div id="u59_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u60" class="ax_default box_1">
+        <div id="u60_div" class=""></div>
+        <div id="u60_text" class="text ">
+          <p><span>图书封面</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Unnamed (矩形) -->
+    <div id="u61" class="ax_default button">
+      <div id="u61_div" class=""></div>
+      <div id="u61_text" class="text ">
+        <p><span>首页</span></p>
+      </div>
+    </div>
+
+    <!-- Unnamed (文本框) -->
+    <div id="u62" class="ax_default text_field">
+      <img id="u62_img" class="img " src="images/首页/u62.svg"/>
+      <input id="u62_input" type="text" value="&lt;上一页&nbsp;&nbsp; 第1页&nbsp; &nbsp; 下一页&gt;&nbsp;&nbsp; " class="u62_input"/>
+    </div>
+
+    <!-- Unnamed (矩形) -->
+    <div id="u63" class="ax_default button">
+      <div id="u63_div" class=""></div>
+      <div id="u63_text" class="text ">
+        <p><span>尾页</span></p>
+      </div>
+    </div>
+
+    <!-- Unnamed (文本框) -->
+    <div id="u64" class="ax_default text_field">
+      <img id="u64_img" class="img " src="images/首页/u64.svg"/>
+      <input id="u64_input" type="text" value="共1页" class="u64_input"/>
+    </div>
+
+    <!-- Unnamed (组合) -->
+    <div id="u65" class="ax_default" data-left="0" data-top="1862" data-width="1036" data-height="250">
+
+      <!-- 最底框架 (矩形) -->
+      <div id="u66" class="ax_default box_1" data-label="最底框架">
+        <img id="u66_img" class="img " src="images/首页/最底框架_u66.svg"/>
+        <div id="u66_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 图书馆名字 (文本框) -->
+      <div id="u67" class="ax_default text_field" data-label="图书馆名字">
+        <div id="u67_div" class=""></div>
+        <input id="u67_input" type="text" value="旅行者图书馆" class="u67_input"/>
+      </div>
+
+      <!-- 开馆时间 (文本框) -->
+      <div id="u68" class="ax_default text_field" data-label="开馆时间">
+        <img id="u68_img" class="img " src="images/首页/开馆时间_u8.svg"/>
+        <input id="u68_input" type="text" value="9：00~21：00" class="u68_input"/>
+      </div>
+
+      <!-- 二维码 (形状) -->
+      <div id="u69" class="ax_default icon" data-label="二维码">
+        <img id="u69_img" class="img " src="images/首页/二维码_u69.svg"/>
+        <div id="u69_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u70" class="ax_default text_field">
+        <img id="u70_img" class="img " src="images/首页/u70.svg"/>
+        <input id="u70_input" type="text" value="旅行者图书馆二维码" class="u70_input"/>
+      </div>
+
+      <!-- 学校地址 (文本框) -->
+      <div id="u71" class="ax_default text_field" data-label="学校地址">
+        <img id="u71_img" class="img " src="images/首页/学校地址_u71.svg"/>
+        <input id="u71_input" type="text" value="中国 成都 金堂县 成都工业职业技术学院" class="u71_input"/>
+      </div>
+
+      <!-- 图书馆头像 (圆形) -->
+      <div id="u72" class="ax_default ellipse" data-label="图书馆头像">
+        <img id="u72_img" class="img " src="images/首页/图书馆头像_u6.svg"/>
+        <div id="u72_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 用户名字 (矩形) -->
+    <div id="u73" class="ax_default link_button" data-label="用户名字">
+      <div id="u73_div" class=""></div>
+      <div id="u73_text" class="text ">
+        <p><span>用户名</span></p>
+      </div>
+    </div>
+
+    <!-- 头像 (圆形) -->
+    <div id="u74" class="ax_default ellipse" data-label="头像">
+      <img id="u74_img" class="img " src="images/首页/头像_u74.svg"/>
+      <div id="u74_text" class="text " style="display:none; visibility: hidden">
+        <p></p>
+      </div>
+    </div>
+
+    <!-- 首页书架 (矩形) -->
+    <div id="u75" class="ax_default link_button" data-label="首页书架">
+      <div id="u75_div" class=""></div>
+      <div id="u75_text" class="text ">
+        <p><span>书架</span></p>
+      </div>
+    </div>
+
+    <!-- 首页登录 (矩形) -->
+    <div id="u76" class="ax_default link_button" data-label="首页登录">
+      <div id="u76_div" class=""></div>
+      <div id="u76_text" class="text ">
+        <p><span>登录</span></p>
+      </div>
+    </div>
+  </div>
+  <script src="resources/scripts/axure/ios.js"></script>
+</form>
+</body>
+</html>
